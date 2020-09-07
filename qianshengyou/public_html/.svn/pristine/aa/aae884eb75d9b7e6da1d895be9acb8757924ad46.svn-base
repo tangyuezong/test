@@ -1,0 +1,31 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+	<div class="form-group">
+        <label class="control-label col-xs-12 col-sm-10" style="color:red">登录小程序的微信需开通了微信支付，且已实名认证，否则不支持自动提现；详细点击<a href="https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_1" target="_BLANK">微信付款说明</a></label>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" data-rule="required" class="form-control form-control" name="row[phone]" type="number" maxlength="11" value="{$row.phone}" placeholder="请输入在小程序注册绑定的手机号码">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Realname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-realname" data-rule="required" class="form-control form-control" name="row[realname]" type="text" value="{$row.realname}" placeholder="请输入个人微信开通微信支付时实名认证使用的个人真实姓名">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Openid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openid" data-rule="required" class="form-control form-control" name="row[openid]" type="text" readonly="readonly" value="{$row.openid}" placeholder="微信付款个人收款ID，通过绑定手机号自动获取">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

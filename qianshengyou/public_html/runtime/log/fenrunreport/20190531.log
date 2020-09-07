@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+[ 2019-05-31T03:30:00+08:00 ] 47.104.254.180 GET /api/Reporter/fenrunreport
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  ( `endtime` >= 1559145600 AND `endtime` < 1559232000 ) ORDER BY `netpoint_id` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_netpoint` [ RunTime:0.000247s ]
+[ log ] log begin - 无分润业绩 
+
+[ log ] 2019-05-30 00:00:00
+[ log ] {"2":"0.00","3":"0.00","5":"0.00","6":"0.00"}
+[ log ] 2019-05-31 00:00:00
+[ log ] log end - 无分润业绩 
+

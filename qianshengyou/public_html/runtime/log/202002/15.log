@@ -1,0 +1,247 @@
+---------------------------------------------------------------
+[ 2020-02-15T00:23:05+08:00 ] 221.178.125.160 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F2D0DF8A2528"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T00:23:16+08:00 ] 221.178.125.160 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F2D0DF8A2528"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T00:23:24+08:00 ] 221.178.125.160 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F2D0DF8A2528"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T06:39:38+08:00 ] 218.204.252.160 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T06:42:08+08:00 ] 218.204.252.160 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-02-15T06:42:45+08:00 ] 117.132.197.178 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T06:45:03+08:00 ] 117.132.197.178 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T07:16:29+08:00 ] 223.104.255.30 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-02-15T07:41:10+08:00 ] 218.204.252.208 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D936444A1258"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T08:14:21+08:00 ] 223.104.255.30 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T08:51:17+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T09:33:39+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T09:42:04+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T09:42:19+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T09:42:34+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T09:42:44+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T11:08:58+08:00 ] 221.178.124.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F583231DD7BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T11:10:58+08:00 ] 221.178.124.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F583231DD7BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T11:12:57+08:00 ] 221.178.124.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F583231DD7BF"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-02-15T11:13:54+08:00 ] 223.104.254.84 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F583231DD7BF"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-02-15T12:15:18+08:00 ] 223.104.254.44 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CB7601C20AA1"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T14:46:30+08:00 ] 112.38.63.187 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000739s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000824s ]
+---------------------------------------------------------------
+[ 2020-02-15T14:46:40+08:00 ] 112.38.63.187 GET /admin/general/attachment?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/attachment' LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2020-02-15T14:46:41+08:00 ] 112.38.63.187 GET /admin/general/attachment/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1581749199748
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_attachment` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2020-02-15T14:46:44+08:00 ] 112.38.63.187 GET /admin/general/attachment/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1581749199749
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_attachment` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2020-02-15T14:46:50+08:00 ] 112.38.63.187 GET /admin/order/bedorder?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'order/bedorder' LIMIT 1 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2020-02-15T14:46:51+08:00 ] 112.38.63.187 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1581749209772
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (24) [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (15,11) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (15,11) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2020-02-15T14:46:53+08:00 ] 112.38.63.187 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1581749209773
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='11' and ag.status='normal' ) [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (2,7,9,11,23,24,25,26,27,28,40,41,42,43,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,150,151,152,153,154,155,156,157,159,160,167,168,175,176,177,178,194,5,131) [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (24) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (15,11) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (15,11) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2020-02-15T17:21:32+08:00 ] 223.104.255.77 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E92960A8BC9D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T17:35:17+08:00 ] 223.104.254.161 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E54D2F2F6E46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T17:35:45+08:00 ] 117.132.192.1 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E54D2F2F6E46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T17:59:54+08:00 ] 221.178.126.109 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC419A050F5E"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T17:59:58+08:00 ] 221.178.126.109 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC419A050F5E"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T18:00:14+08:00 ] 221.178.126.109 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC419A050F5E"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T18:54:30+08:00 ] 218.204.252.213 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DDEF23BB9FAF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-15T20:38:16+08:00 ] 218.204.252.72 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD4D7469C811"}
+[ info ] queryauth response: 
+[ info ] 1

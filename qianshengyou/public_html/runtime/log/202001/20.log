@@ -1,0 +1,444 @@
+---------------------------------------------------------------
+[ 2020-01-20T07:13:26+08:00 ] 39.144.17.7 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E0429C45F324"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T07:41:23+08:00 ] 221.178.125.82 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CF212153B558"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T07:54:12+08:00 ] 39.144.18.88 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC9D9DEBEF81"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T08:25:48+08:00 ] 221.178.125.67 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D2B717DC2628"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T08:25:52+08:00 ] 221.178.125.67 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D2B717DC2628"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T08:45:14+08:00 ] 223.104.255.156 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CAD7B2EB921D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T08:45:28+08:00 ] 223.104.255.156 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CAD7B2EB921D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T09:44:26+08:00 ] 117.132.195.52 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T09:44:36+08:00 ] 117.132.195.52 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T09:44:39+08:00 ] 117.132.195.52 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T09:44:47+08:00 ] 117.132.195.52 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:00:32+08:00 ] 223.104.254.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C5E46B095C73"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:01:56+08:00 ] 223.104.255.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:02:00+08:00 ] 223.104.255.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:02:16+08:00 ] 223.104.255.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:02:20+08:00 ] 223.104.255.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:24:25+08:00 ] 218.204.252.103 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F00C18FC6116"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:28:53+08:00 ] 117.132.194.76 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FB8631AF7CFA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:29:00+08:00 ] 117.132.194.76 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FB8631AF7CFA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:29:05+08:00 ] 117.132.194.76 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FB8631AF7CFA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T10:55:42+08:00 ] 117.132.193.110 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D72B441E601A"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T11:47:20+08:00 ] 218.204.252.103 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F00C18FC6116"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T11:49:34+08:00 ] 223.104.255.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T11:49:58+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T11:51:27+08:00 ] 117.132.192.86 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CB629346BED2"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:06:17+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:06:20+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:16:05+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:16:08+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:16:11+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:19:19+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:22:43+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:22:46+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:23:29+08:00 ] 117.132.196.252 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:24:26+08:00 ] 117.132.194.45 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T12:25:01+08:00 ] 117.132.194.45 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T13:51:36+08:00 ] 117.132.194.45 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T13:53:05+08:00 ] 223.104.255.68 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DF799E29F105"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T13:53:15+08:00 ] 223.104.255.68 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DF799E29F105"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T13:53:44+08:00 ] 223.104.255.68 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DF799E29F105"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:28:35+08:00 ] 223.104.254.226 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E96CC8A29329"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:29:00+08:00 ] 117.132.192.86 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CB629346BED2"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:29:25+08:00 ] 221.178.125.168 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EBEDA007282D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:29:34+08:00 ] 221.178.125.168 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EBEDA007282D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:38:15+08:00 ] 117.132.194.45 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C84C763D531C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:51:11+08:00 ] 117.132.193.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E3029E0D84DA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:51:24+08:00 ] 117.132.193.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E3029E0D84DA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:51:34+08:00 ] 117.132.193.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E3029E0D84DA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:51:45+08:00 ] 117.132.193.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E3029E0D84DA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T14:52:02+08:00 ] 117.132.193.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E3029E0D84DA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T15:00:30+08:00 ] 223.104.254.188 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E85D6E44927C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T15:16:45+08:00 ] 218.204.253.234 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F6B55ED1A919"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T15:20:08+08:00 ] 223.104.254.226 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E96CC8A29329"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T15:31:11+08:00 ] 39.144.18.4 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F5D1A6FF443C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T15:59:49+08:00 ] 223.104.254.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T15:59:53+08:00 ] 223.104.254.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T16:07:21+08:00 ] 223.104.254.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T16:12:58+08:00 ] 218.204.252.122 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D68156CDD97D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T16:26:08+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T16:46:00+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T17:20:11+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T17:20:15+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T17:20:18+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T18:16:59+08:00 ] 117.132.194.151 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D816B1C7F1EC"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T18:42:28+08:00 ] 117.132.193.141 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F583231DD7BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T18:42:32+08:00 ] 117.132.193.141 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F583231DD7BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T20:01:28+08:00 ] 221.178.126.40 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C98AEEB9770B"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T20:01:31+08:00 ] 221.178.126.40 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C98AEEB9770B"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T21:15:28+08:00 ] 223.104.254.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C5E46B095C73"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T21:29:42+08:00 ] 117.132.193.110 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D72B441E601A"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T21:47:03+08:00 ] 221.178.126.40 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C98AEEB9770B"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T22:09:36+08:00 ] 117.132.196.4 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EF2864C9B2CC"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T22:40:54+08:00 ] 117.132.193.141 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C1AB67B02580"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-20T22:55:43+08:00 ] 223.104.254.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C5E46B095C73"}
+[ info ] queryauth response: 
+[ info ] 1

@@ -1,0 +1,60 @@
+---------------------------------------------------------------
+[ 2019-06-08T03:21:23+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-08T03:21:23+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-08T03:34:28+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-08T03:34:28+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-08T03:46:54+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-08T03:46:55+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-08T09:37:22+08:00 ] 221.178.127.207 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-08T09:38:33+08:00 ] 221.178.127.207 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-08T09:38:45+08:00 ] 221.178.127.207 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-06-08T12:22:17+08:00 ] 221.178.125.156 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F1BFB1A1C411"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-08T12:22:25+08:00 ] 221.178.125.156 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F1BFB1A1C411"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-08T22:16:55+08:00 ] 117.132.191.40 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F1BFB1A1C411"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-08T22:17:02+08:00 ] 117.132.191.40 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F1BFB1A1C411"}
+[ info ] queryauth response: 
+[ info ] 1

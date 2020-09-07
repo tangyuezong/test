@@ -1,0 +1,1387 @@
+---------------------------------------------------------------
+[ 2019-05-29T08:26:51+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T08:57:17+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:06:08+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:07:19+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:07:48+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:07:54+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:08:39+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:09:21+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:11:28+08:00 ] 117.132.193.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:15:00+08:00 ] 115.195.143.111 POST /admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012546s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.012287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'ADMIN' LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `loginfailure`=1,`updatetime`=1559092500  WHERE  `id` = 2 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.001540s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"ff3a12ea7ba3f2f1441aea37b4db9a84\",\"username\":\"ADMIN\"}' , '/admin/index/login.html' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559092500) [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:45+08:00 ] 115.195.143.111 POST /admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'ADMIN' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `loginfailure`=0,`logintime`=1559092545,`token`='50ab86f3-5bec-4845-ad01-87d1b2be0acf',`updatetime`=1559092545  WHERE  `id` = 2 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"09a10899922852b626b0f4cd33bac244\",\"username\":\"ADMIN\"}' , '/admin/index/login.html' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559092545) [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:46+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.101622s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.028475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.024177s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001395s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.043734s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.013810s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036413s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.008147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.044536s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000835s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:15:47+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:00+08:00 ] 115.195.143.111 GET /admin/device/devtype?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/devtype' LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:01+08:00 ] 115.195.143.111 GET /admin/device/devtype/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559092565562
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.010780s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_devtype` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_devtype` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:04+08:00 ] 115.195.143.111 GET /admin/device/entity?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/entity' LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:05+08:00 ] 115.195.143.111 GET /admin/device/entity/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559092569279
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.014304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_entity` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_entity` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:06+08:00 ] 115.195.143.111 GET /admin/device/device?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/device' LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:07+08:00 ] 115.195.143.111 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559092571440
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.027289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.055707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:16:14+08:00 ] 115.195.143.111 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559092571441
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:01+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001236s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:02+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000794s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:29:03+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:44:57+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:45:37+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 98
+---------------------------------------------------------------
+[ 2019-05-29T09:47:49+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-05-29T09:58:06+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-05-29T10:02:54+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-05-29T10:03:56+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-05-29T10:05:14+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-05-29T10:10:19+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-05-29T10:10:51+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-05-29T10:13:16+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001214s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:17+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000692s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:18+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:23+08:00 ] 115.195.143.111 GET /admin/auth/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:24+08:00 ] 115.195.143.111 GET /admin/auth/group/index?sort=id&order=desc&_=1559096014461
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:26+08:00 ] 115.195.143.111 GET /admin/device/devtype?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/devtype' LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:27+08:00 ] 115.195.143.111 GET /admin/device/devtype/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559096017547
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_devtype` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_devtype` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:28+08:00 ] 115.195.143.111 GET /admin/device/entity?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/entity' LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:29+08:00 ] 115.195.143.111 GET /admin/device/entity/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559096019560
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_entity` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_entity` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:32+08:00 ] 115.195.143.111 GET /admin/device/device?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/device' LIMIT 1 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:33+08:00 ] 115.195.143.111 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559096023142
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12) [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:35+08:00 ] 115.195.143.111 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559096023143
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12) [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (3,4,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.000670s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:41+08:00 ] 115.195.143.111 GET /admin/order/bedorder?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'order/bedorder' LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:42+08:00 ] 115.195.143.111 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559096032228
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (3,4,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (3,4,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.002250s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`total`,`bedorder`.`refund`,`bedorder`.`step`,`bedorder`.`pricetype`,`bedorder`.`status`,`bedorder`.`lightnight`,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.status AS netpoint__status,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.mac AS device__mac,device.iscabinet AS device__iscabinet,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (3,4,2) )  AND `bedorder`.`step` > 1500 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:13:44+08:00 ] 115.195.143.111 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559096032229
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12) [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (3,4,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (3,4,2) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.001825s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`total`,`bedorder`.`refund`,`bedorder`.`step`,`bedorder`.`pricetype`,`bedorder`.`status`,`bedorder`.`lightnight`,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.status AS netpoint__status,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.mac AS device__mac,device.iscabinet AS device__iscabinet,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (3,4,2) )  AND `bedorder`.`step` > 1500 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:15:37+08:00 ] 117.132.196.217 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-05-29T10:21:22+08:00 ] 218.204.253.239 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CFF68135017E"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-05-29T10:33:04+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001190s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:05+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053010s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000621s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:33:06+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:51+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001187s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:52+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:52+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028226s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:53+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:58+08:00 ] 115.195.143.111 GET /admin/auth/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:48:59+08:00 ] 115.195.143.111 GET /admin/auth/group/index?sort=id&order=desc&_=1559098154629
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:06+08:00 ] 115.195.143.111 GET /admin/auth/group/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:07+08:00 ] 115.195.143.111 POST /admin/auth/group/roletree
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"pid\":\"2\"}' , '/admin/auth/group/roletree' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098147) [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:29+08:00 ] 115.195.143.111 POST /admin/auth/group/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12) [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_group` (`rules` , `pid` , `name` , `status` , `createtime` , `updatetime`) VALUES ('' , 2 , '瑞安分公司' , 'normal' , 1559098169 , 1559098169) [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('系统管理 子公司及权限管理 添加' , '{\"dialog\":\"1\",\"row\":{\"rules\":\"\",\"pid\":\"2\",\"name\":\"\\u745e\\u5b89\\u5206\\u516c\\u53f8\",\"status\":\"normal\"}}' , '/admin/auth/group/add?dialog=1' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098169) [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:29+08:00 ] 115.195.143.111 GET /admin/auth/group/index?sort=id&order=desc&_=1559098154630
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:36+08:00 ] 115.195.143.111 GET /admin/auth/adminlog?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (3,12,13) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/adminlog' LIMIT 1 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:37+08:00 ] 115.195.143.111 GET /admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098192199
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (3,12,13) [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin_log` WHERE  `admin_id` IN (3,4,2) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin_log` WHERE  `admin_id` IN (3,4,2) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:40+08:00 ] 115.195.143.111 GET /admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:41+08:00 ] 115.195.143.111 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098196475
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,12,13) [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  `id` IN (3,4,2) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `fa_admin` WHERE  `id` IN (3,4,2) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:49:43+08:00 ] 115.195.143.111 GET /admin/auth/admin/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:28+08:00 ] 115.195.143.111 POST /admin/auth/admin/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` WHERE  `username` = 'ruian' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` WHERE  `email` = '1486012939@qq.com' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('系统管理 管理员管理 添加' , '{\"dialog\":\"1\",\"group\":[\"13\"],\"row\":{\"username\":\"ruian\",\"email\":\"1486012939@qq.com\",\"nickname\":\"ruian\",\"password\":\"ruian123\",\"status\":\"normal\"}}' , '/admin/auth/admin/add?dialog=1' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098228) [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:32+08:00 ] 115.195.143.111 POST /admin/auth/admin/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` WHERE  `username` = 'ruian' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` WHERE  `email` = '148601293@qq.com' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('系统管理 管理员管理 添加' , '{\"dialog\":\"1\",\"group\":[\"13\"],\"row\":{\"username\":\"ruian\",\"email\":\"148601293@qq.com\",\"nickname\":\"ruian\",\"password\":\"ruian123\",\"status\":\"normal\"}}' , '/admin/auth/admin/add?dialog=1' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098232) [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:35+08:00 ] 115.195.143.111 POST /admin/auth/admin/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` WHERE  `username` = 'ruian' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` WHERE  `email` = '14860129@qq.com' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin` (`username` , `email` , `nickname` , `password` , `status` , `salt` , `avatar` , `createtime` , `updatetime`) VALUES ('ruian' , '14860129@qq.com' , 'ruian' , '9de2f495429dd7495aad27e06fe70eb0' , 'normal' , 'divlZq' , '/assets/img/avatar.png' , 1559098235 , 1559098235) [ RunTime:0.000268s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_group_access` (`uid` , `group_id`) VALUES (5 , 13) [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('系统管理 管理员管理 添加' , '{\"dialog\":\"1\",\"group\":[\"13\"],\"row\":{\"username\":\"ruian\",\"email\":\"14860129@qq.com\",\"nickname\":\"ruian\",\"password\":\"ruian123\",\"status\":\"normal\"}}' , '/admin/auth/admin/add?dialog=1' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098235) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:35+08:00 ] 115.195.143.111 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098196476
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,12,13) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  `id` IN (3,4,5,2) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `fa_admin` WHERE  `id` IN (3,4,5,2) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:42+08:00 ] 115.195.143.111 GET /admin/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001181s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:43+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001212s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:43+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:43+08:00 ] 115.195.143.111 GET /admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:44+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000197s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:50:45+08:00 ] 115.195.143.111 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098260530
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,12,13) [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  `id` IN (3,4,5,2) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `fa_admin` WHERE  `id` IN (3,4,5,2) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:01+08:00 ] 115.195.143.111 POST /admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'ruian' LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1559098321,`token`='945fd019-c6b2-402e-b62f-5888d61e3d2d',`updatetime`=1559098321  WHERE  `id` = 5 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"39582c5fec5634ed3e6b071209e48ca3\",\"username\":\"ruian\"}' , '/admin/index/login.html' , 5 , 'ruian' , 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.7.0.18838' , '115.195.143.111' , 1559098321) [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:01+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (0) [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:17+08:00 ] 115.195.143.111 GET /admin/auth/admin/edit/ids/5?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,12,13) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:24+08:00 ] 115.195.143.111 GET /admin/auth/group/edit/ids/13?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:26+08:00 ] 115.195.143.111 POST /admin/auth/group/roletree
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"id\":\"13\",\"pid\":\"2\"}' , '/admin/auth/group/roletree' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098346) [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:40+08:00 ] 115.195.143.111 POST /admin/auth/group/edit/ids/13?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] UPDATE `fa_auth_group`  SET `rules`='1,13,14,15,16,17',`updatetime`=1559098360  WHERE  `id` = 13 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('系统管理 子公司及权限管理 编辑' , '{\"dialog\":\"1\",\"row\":{\"rules\":\"1,13,14,15,16,17\",\"pid\":\"2\",\"name\":\"\\u745e\\u5b89\\u5206\\u516c\\u53f8\",\"status\":\"normal\"},\"ids\":\"13\"}' , '/admin/auth/group/edit/ids/13?dialog=1' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098360) [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:40+08:00 ] 115.195.143.111 GET /admin/auth/group/index?sort=id&order=desc&_=1559098154631
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:45+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17) [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:45+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:46+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:46+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:46+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:46+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:47+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:47+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:47+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:47+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000197s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:48+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17) [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:48+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008647s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:49+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:50+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000836s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17) [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:51+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014172s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000720s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:52+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:52:56+08:00 ] 115.195.143.111 GET /admin/auth/group/edit/ids/13?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:53:00+08:00 ] 115.195.143.111 POST /admin/auth/group/roletree
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"id\":\"13\",\"pid\":\"2\"}' , '/admin/auth/group/roletree' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098380) [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:42+08:00 ] 115.195.143.111 POST /admin/auth/group/edit/ids/13?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] UPDATE `fa_auth_group`  SET `rules`='1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188',`updatetime`=1559098482  WHERE  `id` = 13 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('系统管理 子公司及权限管理 编辑' , '{\"dialog\":\"1\",\"row\":{\"rules\":\"1,13,14,15,16,17,100,101,104,106,113,115,119,125,130,133,144,145,146,147,148,149,160,167,169,170,171,172,173,174,188,189,190,191,192,193,198,200,203,99,92,105,112,111,118,124,132,131,159,197\",\"pid\":\"2\",\"name\":\"\\u745e\\u5b89\\u5206\\u516c\\u53f8\",\"status\":\"normal\"},\"ids\":\"13\"}' , '/admin/auth/group/edit/ids/13?dialog=1' , 2 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0' , '115.195.143.111' , 1559098482) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:43+08:00 ] 115.195.143.111 GET /admin/auth/group/index?sort=id&order=desc&_=1559098154632
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (2,3,12,13) [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:47+08:00 ] 115.195.143.111 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188) [ RunTime:0.000635s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:48+08:00 ] 115.195.143.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1557331200 AND `createtime` < 1559145600 ) [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000811s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1559059200 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:49+08:00 ] 115.195.143.111 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1558454400 AND `createtime` < 1559145600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:53+08:00 ] 115.195.143.111 GET /admin/users/user?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188) [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'users/user' LIMIT 1 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:54+08:00 ] 115.195.143.111 GET /admin/users/user/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098510793
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188) [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:58+08:00 ] 115.195.143.111 GET /admin/order/bedorder?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188) [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'order/bedorder' LIMIT 1 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:54:59+08:00 ] 115.195.143.111 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098515614
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188) [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN ('') [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (5) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (5) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`total`,`bedorder`.`refund`,`bedorder`.`step`,`bedorder`.`pricetype`,`bedorder`.`status`,`bedorder`.`lightnight`,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.status AS netpoint__status,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.mac AS device__mac,device.iscabinet AS device__iscabinet,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (5) )  AND `bedorder`.`step` > 1500 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2019-05-29T10:55:02+08:00 ] 115.195.143.111 GET /admin/order/bedorder/index?sort=order_no&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559098515615
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='5' and ag.status='normal' ) [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,13,14,15,16,17,92,99,100,101,104,105,106,111,112,113,115,118,119,124,125,130,132,133,144,145,146,147,148,149,159,160,167,169,170,171,172,173,174,189,190,191,192,193,197,198,200,203,131,188) [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN ('') [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (5) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`order_no`,`bedorder`.`users_id`,`bedorder`.`phone`,`bedorder`.`dev_id`,`bedorder`.`admin_id`,`bedorder`.`entity_id`,`bedorder`.`netpoint_id`,`bedorder`.`pricetype`,`bedorder`.`price_id`,`bedorder`.`deposit`,`bedorder`.`lightnight`,`bedorder`.`canusestart`,`bedorder`.`canuseend`,`bedorder`.`hourprice`,`bedorder`.`lighttimesprice`,`bedorder`.`nighttimesprice`,`bedorder`.`dayprice`,`bedorder`.`days`,`bedorder`.`pricedata`,`bedorder`.`total`,`bedorder`.`save`,`bedorder`.`pay`,`bedorder`.`tran_id`,`bedorder`.`refund`,`bedorder`.`refundtime`,`bedorder`.`refundnote`,`bedorder`.`step`,`bedorder`.`status`,`bedorder`.`rtn_admin_id`,`bedorder`.`createtime`,`bedorder`.`endtime`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,device.id AS device__id,device.dev_id AS device__dev_id,device.iscabinet AS device__iscabinet,device.devtype_id AS device__devtype_id,device.price_id AS device__price_id,device.netpoint_id AS device__netpoint_id,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.entity_id AS device__entity_id,device.admin_id AS device__admin_id,device.mac AS device__mac,device.blekey AS device__blekey,device.blepwd AS device__blepwd,device.mac2 AS device__mac2,device.blekey2 AS device__blekey2,device.blepwd2 AS device__blepwd2,device.createtime AS device__createtime,device.updatetime AS device__updatetime,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (5) ) ORDER BY `bedorder`.`order_no` DESC LIMIT 0,10 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT `bedorder`.`total`,`bedorder`.`refund`,`bedorder`.`step`,`bedorder`.`pricetype`,`bedorder`.`status`,`bedorder`.`lightnight`,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.status AS netpoint__status,device.department AS device__department,device.room AS device__room,device.bed AS device__bed,device.mac AS device__mac,device.iscabinet AS device__iscabinet,device.status AS device__status FROM `fa_bedorder` `bedorder` LEFT JOIN `fa_netpoint` `netpoint` ON `bedorder`.`netpoint_id`=`netpoint`.`id` LEFT JOIN `fa_device` `device` ON `bedorder`.`dev_id`=`device`.`dev_id` WHERE  (  `bedorder`.`admin_id` IN (5) )  AND `bedorder`.`step` > 1500 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2019-05-29T20:15:35+08:00 ] 221.178.127.30 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1

@@ -1,0 +1,150 @@
+---------------------------------------------------------------
+[ 2020-01-31T00:52:32+08:00 ] 221.178.125.161 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E85D6E44927C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T01:12:46+08:00 ] 221.178.125.166 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E85D6E44927C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T08:02:18+08:00 ] 223.104.254.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T08:02:21+08:00 ] 223.104.254.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T08:09:04+08:00 ] 218.204.252.108 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C6D0101FD91D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T08:40:44+08:00 ] 218.204.253.21 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F4A76F04FDAD"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-01-31T08:41:46+08:00 ] 218.204.253.21 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F4A76F04FDAD"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-01-31T08:42:21+08:00 ] 218.204.253.21 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F4A76F04FDAD"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-01-31T08:42:54+08:00 ] 218.204.253.21 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F4A76F04FDAD"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T08:43:21+08:00 ] 218.204.253.21 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F4A76F04FDAD"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T08:54:39+08:00 ] 218.204.253.21 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F4A76F04FDAD"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2020-01-31T10:24:10+08:00 ] 221.178.125.82 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CF212153B558"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T10:45:25+08:00 ] 218.204.252.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FCB92889C178"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T12:46:27+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T14:32:50+08:00 ] 218.204.253.118 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E85D6E44927C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T14:33:18+08:00 ] 218.204.253.118 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E85D6E44927C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T14:46:28+08:00 ] 223.104.255.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CE61DB94F719"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T15:17:00+08:00 ] 39.144.17.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C16B8BD3EC7D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T15:17:05+08:00 ] 39.144.17.186 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C16B8BD3EC7D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T15:34:21+08:00 ] 223.104.254.59 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T15:45:06+08:00 ] 117.132.194.220 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T17:54:20+08:00 ] 39.144.17.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"EC675A47FFAA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T18:21:37+08:00 ] 117.132.194.220 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T18:26:14+08:00 ] 221.178.125.32 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C85FD234721F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-01-31T19:06:06+08:00 ] 218.204.252.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FCB92889C178"}
+[ info ] queryauth response: 
+[ info ] 1

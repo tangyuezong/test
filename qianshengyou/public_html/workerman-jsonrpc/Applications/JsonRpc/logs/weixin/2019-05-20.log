@@ -1,0 +1,80 @@
+[2019-05-20 17:18:25][debug] begin notify
+[2019-05-20 17:18:25][debug] <xml><appid><![CDATA[wxef8b2dde7a8b29a8]]></appid>
+<attach><![CDATA[order_no=201905201718217Lq5&users_id=19&payitem=4&payment=5]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1533291971]]></mch_id>
+<nonce_str><![CDATA[sepjm911mdb5oaa4yww3ka9pcotmrte2]]></nonce_str>
+<openid><![CDATA[oVUbI5f5jG06S5_fLlVTF2GzF-Nw]]></openid>
+<out_trade_no><![CDATA[20190520171821201905201718217Lq5]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[519C028A7423E0BB28C5794CF151B56B]]></sign>
+<time_end><![CDATA[20190520171824]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000337201905207226014366]]></transaction_id>
+</xml>
+[2019-05-20 17:18:25][debug] query:{"appid":"wxef8b2dde7a8b29a8","attach":"order_no=201905201718217Lq5&users_id=19&payitem=4&payment=5","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1533291971","nonce_str":"fYD4ISPeyYVpVLHx","openid":"oVUbI5f5jG06S5_fLlVTF2GzF-Nw","out_trade_no":"20190520171821201905201718217Lq5","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"6683146EEC9480861CF842F8706B29B2","time_end":"20190520171824","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000337201905207226014366"}
+[2019-05-21 08:21:13][debug] begin notify
+[2019-05-21 08:21:13][debug] <xml><appid><![CDATA[wxef8b2dde7a8b29a8]]></appid>
+<attach><![CDATA[order_no=20190521082107Tv3C&users_id=18&payitem=4&payment=5]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1533291971]]></mch_id>
+<nonce_str><![CDATA[0z7vp5ky5yf45eo4azfs1ggj95htde2s]]></nonce_str>
+<openid><![CDATA[oVUbI5aXsKLPnJSW2wbwhtH5CjJw]]></openid>
+<out_trade_no><![CDATA[2019052108210720190521082107Tv3C]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[B72EBA042309AD4DF288FFF3E2D9B247]]></sign>
+<time_end><![CDATA[20190521082113]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000321201905210685314522]]></transaction_id>
+</xml>
+[2019-05-21 08:21:14][debug] query:{"appid":"wxef8b2dde7a8b29a8","attach":"order_no=20190521082107Tv3C&users_id=18&payitem=4&payment=5","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1533291971","nonce_str":"dmq3UWV8enar4Pnh","openid":"oVUbI5aXsKLPnJSW2wbwhtH5CjJw","out_trade_no":"2019052108210720190521082107Tv3C","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"4B865479042AF5FB8A556492B1EC7A38","time_end":"20190521082113","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000321201905210685314522"}
+[2019-05-24 14:05:18][debug] begin notify
+[2019-05-24 14:05:18][debug] <xml><appid><![CDATA[wxef8b2dde7a8b29a8]]></appid>
+<attach><![CDATA[order_no=20190524140513dIP9&users_id=7&payitem=4&payment=5]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1533291971]]></mch_id>
+<nonce_str><![CDATA[9kiu55l15g6d7ulc5jxafs10casm4dn1]]></nonce_str>
+<openid><![CDATA[oVUbI5fomWujOY1SaS0vGIxco2OM]]></openid>
+<out_trade_no><![CDATA[2019052414051320190524140513dIP9]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[62C5CEB78BDDC7732159919963CA6A5F]]></sign>
+<time_end><![CDATA[20190524140517]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000330201905240946355046]]></transaction_id>
+</xml>
+[2019-05-24 14:05:18][debug] query:{"appid":"wxef8b2dde7a8b29a8","attach":"order_no=20190524140513dIP9&users_id=7&payitem=4&payment=5","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1533291971","nonce_str":"KySqSooryRxMc1q6","openid":"oVUbI5fomWujOY1SaS0vGIxco2OM","out_trade_no":"2019052414051320190524140513dIP9","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"2422EFA795EBCA7D4B2C4C0E4FE8A094","time_end":"20190524140517","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000330201905240946355046"}
+[2019-05-24 15:01:44][debug] begin notify
+[2019-05-24 15:01:44][debug] <xml><appid><![CDATA[wxef8b2dde7a8b29a8]]></appid>
+<attach><![CDATA[order_no=20190524150139ApKg&users_id=7&payitem=4&payment=5]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1533291971]]></mch_id>
+<nonce_str><![CDATA[6oedw2b626b2ue7aq88wz08wizhbaanu]]></nonce_str>
+<openid><![CDATA[oVUbI5fomWujOY1SaS0vGIxco2OM]]></openid>
+<out_trade_no><![CDATA[2019052415013920190524150139ApKg]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[15892CF1FABEF71E39DAA8D18E083BA4]]></sign>
+<time_end><![CDATA[20190524150143]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000314201905249787982227]]></transaction_id>
+</xml>
+[2019-05-24 15:01:44][debug] query:{"appid":"wxef8b2dde7a8b29a8","attach":"order_no=20190524150139ApKg&users_id=7&payitem=4&payment=5","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1533291971","nonce_str":"247pq9wU8Ml5B3Uz","openid":"oVUbI5fomWujOY1SaS0vGIxco2OM","out_trade_no":"2019052415013920190524150139ApKg","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"35A52E6A4DB3F5B07D40DC59617AF8D8","time_end":"20190524150143","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000314201905249787982227"}

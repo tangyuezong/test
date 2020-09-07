@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2019-09-30T09:02:37+08:00 ] 101.132.188.111 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1568044800 AND `createtime` < 1569859200 ) [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1568044800 AND `createtime` < 1569859200 ) [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2019-09-30T22:07:27+08:00 ] 221.178.127.48 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DD282FAD9646"}
+[ info ] queryauth response: 
+[ info ] 1

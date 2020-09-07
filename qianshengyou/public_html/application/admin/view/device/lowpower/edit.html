@@ -1,0 +1,46 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Device_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-device_id" data-rule="required" class="form-control form-control" name="row[device_id]" type="text" value="{$row.device_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Netpoint_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-netpoint_id" data-rule="required" data-source="device/netpoint/index" class="form-control selectpage form-control" name="row[netpoint_id]" type="text" value="{$row.netpoint_id}" disabled="disabled">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Entity_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-entity_id" data-rule="required" data-source="device/entity/index" class="form-control selectpage form-control" name="row[entity_id]" type="text" value="{$row.entity_id}" disabled="disabled">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Power')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-power" data-rule="required" class="form-control form-control" name="row[power]" type="number" value="{$row.power}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Fixdesc')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fixdesc" data-rule="required" class="form-control form-control" name="row[fixdesc]" type="text" value="{$row.fixdesc}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" data-rule="required" class="form-control form-control" name="row[status]" type="number" value="{$row.status}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

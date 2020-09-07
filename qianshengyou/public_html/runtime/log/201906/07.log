@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2019-06-07T03:21:14+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-07T03:21:14+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-07T03:33:50+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-07T03:33:50+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-07T03:45:13+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-07T03:45:13+08:00 ] 101.91.62.170 POST /api/Notifyurl/wxnotify
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA
+---------------------------------------------------------------
+[ 2019-06-07T14:26:23+08:00 ] 221.178.125.235 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DD282FAD9646"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-07T16:08:28+08:00 ] 221.178.126.83 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DD282FAD9646"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-06-07T16:09:07+08:00 ] 223.104.254.177 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DD282FAD9646"}
+[ info ] queryauth response: 
+[ info ] 1

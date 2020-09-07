@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2019-09-08T09:14:07+08:00 ] 223.104.254.226 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-08T09:14:19+08:00 ] 223.104.254.226 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-08T13:02:48+08:00 ] 117.132.194.255 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-08T21:40:11+08:00 ] 221.178.126.24 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D310E86FCFB5"}
+[ info ] queryauth response: 
+[ info ] 1

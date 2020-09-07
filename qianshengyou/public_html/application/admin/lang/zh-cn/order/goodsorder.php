@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'Id'  =>  '主键ID',
+    'Order_no'  =>  '订单号',
+    'Users_id'  =>  '用户ID',
+    'Goods_id'  =>  '商品ID',
+    'Price'  =>  '商品单价',
+    'Num'  =>  '购买数量',
+    'Total'  =>  '总计金额',
+    'Createtime'  =>  '创建时间',
+    'Updatetime'  =>  '更新时间',
+    'Admin_id'  =>  '操作管理员',
+    'Netpoint_id'  =>  '网点ID',
+    'Netpoint.name'  =>  '网点',
+    'Netpoint'  =>  '网点',
+    'Department'  =>  '科室',
+    'Room'  =>  '病房',
+    'Status'  =>  '状态',
+    'Goods.name'  =>  '商品名称',
+    'Goodsname'  =>  '商品名称',
+    'Goods.goods_image'  =>  '商品图片',
+    'Users.phone'  =>  '用户手机',
+    'Phone'  =>  '用户手机',
+    'Users.nickname'  =>  '昵称',
+    'Trans.tran_id'  =>  '微信订单号',
+    'Trans.tran_time'  =>  '微信订单时间',
+    'Amount'  =>  '退款金额',
+    'Refund'  =>  '已退款金额',
+    'Refundnote'  =>  '退款备注',
+    'Refund_id'  =>  '退款微信订单号',
+    'Refund_id'  =>  '微信退款时间'
+];

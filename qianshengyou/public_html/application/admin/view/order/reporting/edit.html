@@ -1,0 +1,178 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Users_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-users_id" data-rule="required" data-source="users/index" class="form-control selectpage form-control" name="row[users_id]" type="text" value="{$row.users_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" data-rule="required" class="form-control form-control" name="row[phone]" type="text" value="{$row.phone}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Dev_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dev_id" data-rule="required" data-source="dev/index" class="form-control selectpage form-control" name="row[dev_id]" type="text" value="{$row.dev_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Entity_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-entity_id" data-rule="required" data-source="entity/index" class="form-control selectpage form-control" name="row[entity_id]" type="text" value="{$row.entity_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Netpoint_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-netpoint_id" data-rule="required" data-source="netpoint/index" class="form-control selectpage form-control" name="row[netpoint_id]" type="text" value="{$row.netpoint_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pricetype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pricetype" data-rule="required" class="form-control form-control" name="row[pricetype]" type="number" value="{$row.pricetype}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Price_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price_id" data-rule="required" data-source="price/index" class="form-control selectpage form-control" name="row[price_id]" type="text" value="{$row.price_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Deposit')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-deposit" data-rule="required" class="form-control form-control" name="row[deposit]" type="number" value="{$row.deposit}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lightnight')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lightnight" data-rule="required" class="form-control form-control" name="row[lightnight]" type="number" value="{$row.lightnight}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Canusestart')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-canusestart" data-rule="required" class="form-control form-control" name="row[canusestart]" type="number" value="{$row.canusestart}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Canuseend')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-canuseend" data-rule="required" class="form-control form-control" name="row[canuseend]" type="number" value="{$row.canuseend}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Hourprice')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-hourprice" data-rule="required" class="form-control form-control" name="row[hourprice]" type="number" value="{$row.hourprice}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lighttimesprice')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lighttimesprice" data-rule="required" class="form-control form-control" name="row[lighttimesprice]" type="number" value="{$row.lighttimesprice}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Nighttimesprice')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-nighttimesprice" data-rule="required" class="form-control form-control" name="row[nighttimesprice]" type="number" value="{$row.nighttimesprice}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Dayprice')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dayprice" data-rule="required" class="form-control form-control" name="row[dayprice]" type="number" value="{$row.dayprice}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Days')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-days" data-rule="required" class="form-control form-control" name="row[days]" type="number" value="{$row.days}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pricedata')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pricedata" data-rule="required" class="form-control form-control" name="row[pricedata]" type="text" value="{$row.pricedata}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Total')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-total" data-rule="required" class="form-control form-control" name="row[total]" type="number" value="{$row.total}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Save')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-save" data-rule="required" class="form-control form-control" name="row[save]" type="number" value="{$row.save}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pay')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pay" data-rule="required" class="form-control form-control" name="row[pay]" type="number" value="{$row.pay}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tran_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tran_id" data-rule="required" data-source="tran/index" class="form-control selectpage form-control" name="row[tran_id]" type="text" value="{$row.tran_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Refund')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-refund" data-rule="required" class="form-control form-control" name="row[refund]" type="number" value="{$row.refund}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Refundtime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-refundtime" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[refundtime]" type="text" value="{$row.refundtime|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Refundnote')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-refundnote" data-rule="required" class="form-control form-control" name="row[refundnote]" type="text" value="{$row.refundnote}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Step')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-step" data-rule="required" class="form-control form-control" name="row[step]" type="number" value="{$row.step}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" data-rule="required" class="form-control form-control" name="row[status]" type="number" value="{$row.status}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Rtn_admin_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-rtn_admin_id" data-rule="required" data-source="rtn/admin/index" class="form-control selectpage form-control" name="row[rtn_admin_id]" type="text" value="{$row.rtn_admin_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Endtime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-endtime" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[endtime]" type="text" value="{$row.endtime|datetime}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2019-08-13T09:15:28+08:00 ] 117.132.191.171 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CFF68135017E"}
+[ info ] queryauth response: 
+[ info ] 0
+---------------------------------------------------------------
+[ 2019-08-13T11:09:45+08:00 ] 221.178.127.205 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D123433F49C3"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T11:22:38+08:00 ] 117.132.191.83 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D123433F49C3"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T11:23:48+08:00 ] 117.132.192.105 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D123433F49C3"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T11:54:28+08:00 ] 223.104.255.51 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T11:59:27+08:00 ] 218.204.253.64 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T13:09:36+08:00 ] 117.132.191.64 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T14:18:57+08:00 ] 221.178.127.127 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-08-13T14:19:03+08:00 ] 221.178.127.127 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C8F0C64C482C"}
+[ info ] queryauth response: 
+[ info ] 1

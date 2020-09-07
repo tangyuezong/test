@@ -1,0 +1,17 @@
+---------------------------------------------------------------
+[ 2020-02-08T03:30:04+08:00 ] 47.104.254.180 GET /api/Reporter/fenrunreport
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  ( `endtime` >= 1581004800 AND `endtime` < 1581091200 ) ORDER BY `netpoint_id` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_netpoint` [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_fenrun` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] INSERT INTO `fa_fenrun` (`group_id` , `amount` , `fenrundate` , `updatetime` , `createtime` , `status`) VALUES (2 , 5 , 20200207 , 1581103804 , 1581103804 , 0) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] INSERT INTO `fa_fenrun` (`group_id` , `amount` , `fenrundate` , `updatetime` , `createtime` , `status`) VALUES (26 , 5 , 20200207 , 1581103804 , 1581103804 , 0) [ RunTime:0.000124s ]
+[ log ] log begin - 分润报表生成成功 
+
+[ log ] 2020-02-07 00:00:00
+[ log ] {"2":"5.00","3":0,"5":0,"6":0,"17":0,"18":0,"20":0,"26":"5.00"}
+[ log ] 2020-02-08 00:00:00
+[ log ] log end - 分润报表生成成功 
+

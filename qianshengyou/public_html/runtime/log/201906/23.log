@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-06-23T21:21:56+08:00 ] 221.178.124.229 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D123433F49C3"}
+[ info ] queryauth response: 
+[ info ] 1

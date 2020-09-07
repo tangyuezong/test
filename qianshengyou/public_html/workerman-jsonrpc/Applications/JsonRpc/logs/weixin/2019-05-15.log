@@ -1,0 +1,20 @@
+[2019-05-15 18:37:06][debug] begin notify
+[2019-05-15 18:37:06][debug] <xml><appid><![CDATA[wxef8b2dde7a8b29a8]]></appid>
+<attach><![CDATA[order_no=201905151836595CuX&users_id=4&payitem=4&payment=5]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1533291971]]></mch_id>
+<nonce_str><![CDATA[mac8pmpxpdxufz20iu2epx5dmvdd05y6]]></nonce_str>
+<openid><![CDATA[oVUbI5fWf9yqS6POpzBM8VhtIMWw]]></openid>
+<out_trade_no><![CDATA[20190515183659201905151836595CuX]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[558BE7297891AB60FDD9EF0D1B39823C]]></sign>
+<time_end><![CDATA[20190515183704]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000324201905153177669866]]></transaction_id>
+</xml>
+[2019-05-15 18:37:06][debug] query:{"appid":"wxef8b2dde7a8b29a8","attach":"order_no=201905151836595CuX&users_id=4&payitem=4&payment=5","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1533291971","nonce_str":"1nAI8uKRVLeT3WUl","openid":"oVUbI5fWf9yqS6POpzBM8VhtIMWw","out_trade_no":"20190515183659201905151836595CuX","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"802467AD255794E784E6C1EE86F80406","time_end":"20190515183704","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000324201905153177669866"}

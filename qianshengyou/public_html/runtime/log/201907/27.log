@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2019-07-27T18:02:45+08:00 ] 223.104.255.239 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DD282FAD9646"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-07-27T18:02:59+08:00 ] 223.104.255.239 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"DD282FAD9646"}
+[ info ] queryauth response: 
+[ info ] 1

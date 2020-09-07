@@ -1,0 +1,333 @@
+2019-05-09 16:34:44 pid:601 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-05-09 16:34:44 pid:601 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-05-09 16:34:44 pid:601 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-05-10 16:11:40 pid:22497 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-05-10 16:11:40 pid:22497 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-05-10 16:11:40 pid:22497 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-05-17 15:48:04 pid:3442 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-05-17 15:48:04 pid:3442 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-05-17 15:48:04 pid:22499 Workerman[start.php] stopping ...
+2019-05-17 15:48:04 pid:22499 Workerman[start.php] has been stopped
+2019-05-17 15:48:04 pid:3442 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-05-29 09:47:23 pid:2346 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-05-29 09:47:23 pid:2346 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-05-29 09:47:23 pid:2346 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-06-28 11:32:46 pid:15753 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-06-28 11:32:46 pid:15753 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-06-28 11:32:46 pid:2348 Workerman[start.php] stopping ...
+2019-06-28 11:32:46 pid:2348 Workerman[start.php] has been stopped
+2019-06-28 11:32:46 pid:15753 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-06-28 12:03:45 pid:15759 Worker[15759] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 60"
+2019-06-28 12:03:45 pid:15756 worker[JsonRpc:15759] exit with status 65280
+2019-06-28 12:03:49 pid:15794 Worker[15794] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:03:49 pid:15756 worker[JsonRpc:15794] exit with status 65280
+2019-06-28 12:03:51 pid:15797 Worker[15797] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:03:51 pid:15756 worker[JsonRpc:15797] exit with status 65280
+2019-06-28 12:03:55 pid:15760 Worker[15760] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:03:55 pid:15756 worker[JsonRpc:15760] exit with status 65280
+2019-06-28 12:04:05 pid:15801 Worker[15801] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:05 pid:15756 worker[JsonRpc:15801] exit with status 65280
+2019-06-28 12:04:08 pid:15803 Worker[15803] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:08 pid:15756 worker[JsonRpc:15803] exit with status 65280
+2019-06-28 12:04:10 pid:15805 Worker[15805] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:10 pid:15756 worker[JsonRpc:15805] exit with status 65280
+2019-06-28 12:04:17 pid:15799 Worker[15799] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:17 pid:15756 worker[JsonRpc:15799] exit with status 65280
+2019-06-28 12:04:19 pid:15809 Worker[15809] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:19 pid:15756 worker[JsonRpc:15809] exit with status 65280
+2019-06-28 12:04:25 pid:15807 Worker[15807] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:25 pid:15756 worker[JsonRpc:15807] exit with status 65280
+2019-06-28 12:04:36 pid:15813 Worker[15813] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:36 pid:15756 worker[JsonRpc:15813] exit with status 65280
+2019-06-28 12:04:36 pid:15811 Worker[15811] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:36 pid:15756 worker[JsonRpc:15811] exit with status 65280
+2019-06-28 12:04:39 pid:15817 Worker[15817] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:39 pid:15756 worker[JsonRpc:15817] exit with status 65280
+2019-06-28 12:04:41 pid:15819 Worker[15819] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:41 pid:15756 worker[JsonRpc:15819] exit with status 65280
+2019-06-28 12:04:42 pid:15821 Worker[15821] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:42 pid:15756 worker[JsonRpc:15821] exit with status 65280
+2019-06-28 12:04:42 pid:15823 Worker[15823] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-28 12:04:42 pid:15756 worker[JsonRpc:15823] exit with status 65280
+2019-06-29 00:09:48 pid:15757 Worker[15757] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 00:09:48 pid:15756 worker[JsonRpc:15757] exit with status 65280
+2019-06-29 00:12:01 pid:15758 Worker[15758] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 00:12:01 pid:15756 worker[JsonRpc:15758] exit with status 65280
+2019-06-29 00:12:01 pid:15816 Worker[15816] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 00:12:01 pid:15756 worker[JsonRpc:15816] exit with status 65280
+2019-06-29 10:18:50 pid:16522 Worker[16522] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:18:50 pid:15756 worker[JsonRpc:16522] exit with status 65280
+2019-06-29 10:18:55 pid:15825 Worker[15825] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:18:55 pid:15756 worker[JsonRpc:15825] exit with status 65280
+2019-06-29 10:18:59 pid:16530 Worker[16530] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:18:59 pid:15756 worker[JsonRpc:16530] exit with status 65280
+2019-06-29 10:19:06 pid:17195 Worker[17195] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:19:06 pid:15756 worker[JsonRpc:17195] exit with status 65280
+2019-06-29 10:19:18 pid:16532 Worker[16532] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:19:18 pid:15756 worker[JsonRpc:16532] exit with status 65280
+2019-06-29 10:19:41 pid:17192 Worker[17192] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:19:41 pid:15756 worker[JsonRpc:17192] exit with status 65280
+2019-06-29 10:19:57 pid:17199 Worker[17199] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:19:57 pid:15756 worker[JsonRpc:17199] exit with status 65280
+2019-06-29 10:20:04 pid:17201 Worker[17201] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:20:04 pid:15756 worker[JsonRpc:17201] exit with status 65280
+2019-06-29 10:21:12 pid:17212 Worker[17212] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:21:12 pid:15756 worker[JsonRpc:17212] exit with status 65280
+2019-06-29 10:21:27 pid:17197 Worker[17197] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:21:27 pid:15756 worker[JsonRpc:17197] exit with status 65280
+2019-06-29 10:21:33 pid:17203 Worker[17203] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:21:33 pid:15756 worker[JsonRpc:17203] exit with status 65280
+2019-06-29 10:21:36 pid:17205 Worker[17205] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:21:36 pid:15756 worker[JsonRpc:17205] exit with status 65280
+2019-06-29 10:21:40 pid:17214 Worker[17214] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:21:40 pid:15756 worker[JsonRpc:17214] exit with status 65280
+2019-06-29 10:21:43 pid:17216 Worker[17216] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:21:43 pid:15756 worker[JsonRpc:17216] exit with status 65280
+2019-06-29 10:22:10 pid:17218 Worker[17218] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:10 pid:15756 worker[JsonRpc:17218] exit with status 65280
+2019-06-29 10:22:15 pid:17220 Worker[17220] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:15 pid:15756 worker[JsonRpc:17220] exit with status 65280
+2019-06-29 10:22:44 pid:17222 Worker[17222] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:44 pid:15756 worker[JsonRpc:17222] exit with status 65280
+2019-06-29 10:22:47 pid:17226 Worker[17226] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:47 pid:15756 worker[JsonRpc:17226] exit with status 65280
+2019-06-29 10:22:49 pid:17228 Worker[17228] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:49 pid:15756 worker[JsonRpc:17228] exit with status 65280
+2019-06-29 10:22:51 pid:17224 Worker[17224] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:51 pid:15756 worker[JsonRpc:17224] exit with status 65280
+2019-06-29 10:22:53 pid:17230 Worker[17230] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:53 pid:15756 worker[JsonRpc:17230] exit with status 65280
+2019-06-29 10:22:55 pid:17236 Worker[17236] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:55 pid:15756 worker[JsonRpc:17236] exit with status 65280
+2019-06-29 10:22:57 pid:17240 Worker[17240] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:57 pid:15756 worker[JsonRpc:17240] exit with status 65280
+2019-06-29 10:22:59 pid:17234 Worker[17234] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:22:59 pid:15756 worker[JsonRpc:17234] exit with status 65280
+2019-06-29 10:23:02 pid:17242 Worker[17242] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:02 pid:15756 worker[JsonRpc:17242] exit with status 65280
+2019-06-29 10:23:04 pid:17238 Worker[17238] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:04 pid:15756 worker[JsonRpc:17238] exit with status 65280
+2019-06-29 10:23:06 pid:17232 Worker[17232] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:06 pid:15756 worker[JsonRpc:17232] exit with status 65280
+2019-06-29 10:23:30 pid:17244 Worker[17244] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:30 pid:15756 worker[JsonRpc:17244] exit with status 65280
+2019-06-29 10:23:33 pid:17246 Worker[17246] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:33 pid:15756 worker[JsonRpc:17246] exit with status 65280
+2019-06-29 10:23:35 pid:17250 Worker[17250] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:35 pid:15756 worker[JsonRpc:17250] exit with status 65280
+2019-06-29 10:23:37 pid:17248 Worker[17248] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:23:37 pid:15756 worker[JsonRpc:17248] exit with status 65280
+2019-06-29 10:25:57 pid:17252 Worker[17252] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:25:57 pid:15756 worker[JsonRpc:17252] exit with status 65280
+2019-06-29 10:25:59 pid:17254 Worker[17254] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:25:59 pid:15756 worker[JsonRpc:17254] exit with status 65280
+2019-06-29 10:26:00 pid:17256 Worker[17256] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:00 pid:15756 worker[JsonRpc:17256] exit with status 65280
+2019-06-29 10:26:01 pid:17266 Worker[17266] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:01 pid:15756 worker[JsonRpc:17266] exit with status 65280
+2019-06-29 10:26:02 pid:17258 Worker[17258] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:02 pid:15756 worker[JsonRpc:17258] exit with status 65280
+2019-06-29 10:26:03 pid:17262 Worker[17262] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:03 pid:15756 worker[JsonRpc:17262] exit with status 65280
+2019-06-29 10:26:03 pid:17264 Worker[17264] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:03 pid:15756 worker[JsonRpc:17264] exit with status 65280
+2019-06-29 10:26:04 pid:17268 Worker[17268] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:04 pid:15756 worker[JsonRpc:17268] exit with status 65280
+2019-06-29 10:26:05 pid:17270 Worker[17270] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:26:05 pid:15756 worker[JsonRpc:17270] exit with status 65280
+2019-06-29 10:28:36 pid:17272 Worker[17272] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:28:37 pid:15756 worker[JsonRpc:17272] exit with status 65280
+2019-06-29 10:28:38 pid:17278 Worker[17278] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:28:38 pid:15756 worker[JsonRpc:17278] exit with status 65280
+2019-06-29 10:28:38 pid:17274 Worker[17274] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:28:38 pid:15756 worker[JsonRpc:17274] exit with status 65280
+2019-06-29 10:28:39 pid:17285 Worker[17285] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:28:39 pid:15756 worker[JsonRpc:17285] exit with status 65280
+2019-06-29 10:28:40 pid:17276 Worker[17276] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:28:40 pid:15756 worker[JsonRpc:17276] exit with status 65280
+2019-06-29 10:28:41 pid:17283 Worker[17283] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:28:41 pid:15756 worker[JsonRpc:17283] exit with status 65280
+2019-06-29 10:33:27 pid:17293 Worker[17293] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:33:27 pid:15756 worker[JsonRpc:17293] exit with status 65280
+2019-06-29 10:33:33 pid:17289 Worker[17289] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:33:33 pid:15756 worker[JsonRpc:17289] exit with status 65280
+2019-06-29 10:33:35 pid:17291 Worker[17291] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:33:35 pid:15756 worker[JsonRpc:17291] exit with status 65280
+2019-06-29 10:33:37 pid:17287 Worker[17287] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:33:37 pid:15756 worker[JsonRpc:17287] exit with status 65280
+2019-06-29 10:33:38 pid:17301 Worker[17301] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:33:38 pid:15756 worker[JsonRpc:17301] exit with status 65280
+2019-06-29 10:33:40 pid:17303 Worker[17303] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:33:40 pid:15756 worker[JsonRpc:17303] exit with status 65280
+2019-06-29 10:37:20 pid:17311 Worker[17311] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:20 pid:15756 worker[JsonRpc:17311] exit with status 65280
+2019-06-29 10:37:21 pid:17305 Worker[17305] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:21 pid:15756 worker[JsonRpc:17305] exit with status 65280
+2019-06-29 10:37:22 pid:17307 Worker[17307] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:22 pid:15756 worker[JsonRpc:17307] exit with status 65280
+2019-06-29 10:37:23 pid:17309 Worker[17309] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:23 pid:15756 worker[JsonRpc:17309] exit with status 65280
+2019-06-29 10:37:24 pid:17316 Worker[17316] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:24 pid:15756 worker[JsonRpc:17316] exit with status 65280
+2019-06-29 10:37:37 pid:17314 Worker[17314] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:37 pid:15756 worker[JsonRpc:17314] exit with status 65280
+2019-06-29 10:37:46 pid:17318 Worker[17318] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:46 pid:15756 worker[JsonRpc:17318] exit with status 65280
+2019-06-29 10:37:48 pid:17326 Worker[17326] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:48 pid:15756 worker[JsonRpc:17326] exit with status 65280
+2019-06-29 10:37:50 pid:17320 Worker[17320] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:37:50 pid:15756 worker[JsonRpc:17320] exit with status 65280
+2019-06-29 10:39:33 pid:17330 Worker[17330] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:39:33 pid:15756 worker[JsonRpc:17330] exit with status 65280
+2019-06-29 10:39:36 pid:17322 Worker[17322] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:39:36 pid:15756 worker[JsonRpc:17322] exit with status 65280
+2019-06-29 10:39:39 pid:17333 Worker[17333] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:39:39 pid:15756 worker[JsonRpc:17333] exit with status 65280
+2019-06-29 10:39:43 pid:17335 Worker[17335] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:39:43 pid:15756 worker[JsonRpc:17335] exit with status 65280
+2019-06-29 10:39:45 pid:17337 Worker[17337] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:39:45 pid:15756 worker[JsonRpc:17337] exit with status 65280
+2019-06-29 10:40:03 pid:17324 Worker[17324] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:03 pid:15756 worker[JsonRpc:17324] exit with status 65280
+2019-06-29 10:40:05 pid:17328 Worker[17328] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:05 pid:15756 worker[JsonRpc:17328] exit with status 65280
+2019-06-29 10:40:07 pid:17348 Worker[17348] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:07 pid:15756 worker[JsonRpc:17348] exit with status 65280
+2019-06-29 10:40:09 pid:17339 Worker[17339] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:10 pid:15756 worker[JsonRpc:17339] exit with status 65280
+2019-06-29 10:40:11 pid:17341 Worker[17341] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:11 pid:15756 worker[JsonRpc:17341] exit with status 65280
+2019-06-29 10:40:36 pid:17350 Worker[17350] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:36 pid:15756 worker[JsonRpc:17350] exit with status 65280
+2019-06-29 10:40:38 pid:17358 Worker[17358] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:38 pid:15756 worker[JsonRpc:17358] exit with status 65280
+2019-06-29 10:40:43 pid:17352 Worker[17352] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:43 pid:15756 worker[JsonRpc:17352] exit with status 65280
+2019-06-29 10:40:45 pid:17354 Worker[17354] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:45 pid:15756 worker[JsonRpc:17354] exit with status 65280
+2019-06-29 10:40:58 pid:17364 Worker[17364] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:40:58 pid:15756 worker[JsonRpc:17364] exit with status 65280
+2019-06-29 10:41:00 pid:17356 Worker[17356] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:41:00 pid:15756 worker[JsonRpc:17356] exit with status 65280
+2019-06-29 10:41:02 pid:17360 Worker[17360] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:41:02 pid:15756 worker[JsonRpc:17360] exit with status 65280
+2019-06-29 10:41:04 pid:17362 Worker[17362] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:41:04 pid:15756 worker[JsonRpc:17362] exit with status 65280
+2019-06-29 10:41:06 pid:17366 Worker[17366] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:41:06 pid:15756 worker[JsonRpc:17366] exit with status 65280
+2019-06-29 10:43:18 pid:17368 Worker[17368] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:43:18 pid:15756 worker[JsonRpc:17368] exit with status 65280
+2019-06-29 10:43:24 pid:17376 Worker[17376] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:43:24 pid:15756 worker[JsonRpc:17376] exit with status 65280
+2019-06-29 10:43:47 pid:17378 Worker[17378] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:43:47 pid:15756 worker[JsonRpc:17378] exit with status 65280
+2019-06-29 10:48:04 pid:17370 Worker[17370] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:48:04 pid:15756 worker[JsonRpc:17370] exit with status 65280
+2019-06-29 10:48:06 pid:17380 Worker[17380] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:48:06 pid:15756 worker[JsonRpc:17380] exit with status 65280
+2019-06-29 10:48:08 pid:17383 Worker[17383] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:48:08 pid:15756 worker[JsonRpc:17383] exit with status 65280
+2019-06-29 10:48:12 pid:17385 Worker[17385] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:48:12 pid:15756 worker[JsonRpc:17385] exit with status 65280
+2019-06-29 10:51:30 pid:17374 Worker[17374] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:30 pid:15756 worker[JsonRpc:17374] exit with status 65280
+2019-06-29 10:51:32 pid:17372 Worker[17372] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:32 pid:15756 worker[JsonRpc:17372] exit with status 65280
+2019-06-29 10:51:34 pid:17389 Worker[17389] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:34 pid:15756 worker[JsonRpc:17389] exit with status 65280
+2019-06-29 10:51:36 pid:17387 Worker[17387] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:36 pid:15756 worker[JsonRpc:17387] exit with status 65280
+2019-06-29 10:51:38 pid:17401 Worker[17401] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:38 pid:15756 worker[JsonRpc:17401] exit with status 65280
+2019-06-29 10:51:39 pid:17403 Worker[17403] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:39 pid:15756 worker[JsonRpc:17403] exit with status 65280
+2019-06-29 10:51:41 pid:17405 Worker[17405] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:41 pid:15756 worker[JsonRpc:17405] exit with status 65280
+2019-06-29 10:51:43 pid:17407 Worker[17407] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:43 pid:15756 worker[JsonRpc:17407] exit with status 65280
+2019-06-29 10:51:47 pid:17409 Worker[17409] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:47 pid:15756 worker[JsonRpc:17409] exit with status 65280
+2019-06-29 10:51:49 pid:17411 Worker[17411] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:49 pid:15756 worker[JsonRpc:17411] exit with status 65280
+2019-06-29 10:51:51 pid:17413 Worker[17413] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:51:51 pid:15756 worker[JsonRpc:17413] exit with status 65280
+2019-06-29 10:52:02 pid:17415 Worker[17415] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:02 pid:15756 worker[JsonRpc:17415] exit with status 65280
+2019-06-29 10:52:05 pid:17421 Worker[17421] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:05 pid:15756 worker[JsonRpc:17421] exit with status 65280
+2019-06-29 10:52:06 pid:17417 Worker[17417] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:07 pid:15756 worker[JsonRpc:17417] exit with status 65280
+2019-06-29 10:52:09 pid:17425 Worker[17425] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:09 pid:15756 worker[JsonRpc:17425] exit with status 65280
+2019-06-29 10:52:11 pid:17423 Worker[17423] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:11 pid:15756 worker[JsonRpc:17423] exit with status 65280
+2019-06-29 10:52:15 pid:17427 Worker[17427] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:15 pid:15756 worker[JsonRpc:17427] exit with status 65280
+2019-06-29 10:52:18 pid:17429 Worker[17429] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:18 pid:15756 worker[JsonRpc:17429] exit with status 65280
+2019-06-29 10:52:20 pid:17431 Worker[17431] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:20 pid:15756 worker[JsonRpc:17431] exit with status 65280
+2019-06-29 10:52:25 pid:17433 Worker[17433] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:52:25 pid:15756 worker[JsonRpc:17433] exit with status 65280
+2019-06-29 10:55:12 pid:17439 Worker[17439] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:55:12 pid:15756 worker[JsonRpc:17439] exit with status 65280
+2019-06-29 10:55:13 pid:17442 Worker[17442] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:55:13 pid:15756 worker[JsonRpc:17442] exit with status 65280
+2019-06-29 10:55:14 pid:17437 Worker[17437] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 10:55:14 pid:15756 worker[JsonRpc:17437] exit with status 65280
+2019-06-29 11:00:39 pid:17419 Worker[17419] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:00:39 pid:15756 worker[JsonRpc:17419] exit with status 65280
+2019-06-29 11:00:42 pid:17454 Worker[17454] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:00:42 pid:15756 worker[JsonRpc:17454] exit with status 65280
+2019-06-29 11:00:45 pid:17446 Worker[17446] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:00:45 pid:15756 worker[JsonRpc:17446] exit with status 65280
+2019-06-29 11:00:49 pid:17435 Worker[17435] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:00:49 pid:15756 worker[JsonRpc:17435] exit with status 65280
+2019-06-29 11:00:50 pid:17444 Worker[17444] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:00:50 pid:15756 worker[JsonRpc:17444] exit with status 65280
+2019-06-29 11:00:52 pid:17458 Worker[17458] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:00:52 pid:15756 worker[JsonRpc:17458] exit with status 65280
+2019-06-29 11:01:41 pid:17464 Worker[17464] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:01:41 pid:15756 worker[JsonRpc:17464] exit with status 65280
+2019-06-29 11:01:44 pid:17456 Worker[17456] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:01:44 pid:15756 worker[JsonRpc:17456] exit with status 65280
+2019-06-29 11:01:46 pid:17460 Worker[17460] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:01:46 pid:15756 worker[JsonRpc:17460] exit with status 65280
+2019-06-29 11:01:48 pid:17462 Worker[17462] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:01:48 pid:15756 worker[JsonRpc:17462] exit with status 65280
+2019-06-29 11:06:11 pid:17478 Worker[17478] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:06:11 pid:15756 worker[JsonRpc:17478] exit with status 65280
+2019-06-29 11:06:13 pid:17480 Worker[17480] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:06:13 pid:15756 worker[JsonRpc:17480] exit with status 65280
+2019-06-29 11:06:15 pid:17482 Worker[17482] process terminated with ERROR: E_ERROR "Undefined class constant 'AIRPLUS_HASH_OPENID_INDEX_TO_SESSION_KEY' in /www/web/qianshengyou/public_html/workerman-jsonrpc/Applications/JsonRpc/Services/User.php on line 86"
+2019-06-29 11:06:15 pid:15756 worker[JsonRpc:17482] exit with status 65280
+2019-06-29 12:00:28 pid:17563 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-06-29 12:00:28 pid:17563 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-06-29 12:00:28 pid:15756 Workerman[start.php] stopping ...
+2019-06-29 12:00:28 pid:15756 Workerman[start.php] has been stopped
+2019-06-29 12:00:28 pid:17563 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-08-30 14:53:46 pid:17284 Workerman[./workerman-jsonrpc/start.php] restart 
+2019-08-30 14:53:46 pid:17284 Workerman[./workerman-jsonrpc/start.php] is stopping ...
+2019-08-30 14:53:46 pid:17566 Workerman[start.php] stopping ...
+2019-08-30 14:53:46 pid:17566 Workerman[start.php] has been stopped
+2019-08-30 14:53:46 pid:17284 Workerman[./workerman-jsonrpc/start.php] stop success
+2019-12-22 23:34:45 pid:4803 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] restart 
+2019-12-22 23:34:45 pid:4803 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] is stopping ...
+2019-12-22 23:34:45 pid:17287 Workerman[start.php] stopping ...
+2019-12-22 23:34:45 pid:17287 Workerman[start.php] has been stopped
+2019-12-22 23:34:45 pid:4803 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] stop success
+2019-12-22 23:35:56 pid:4816 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] restart 
+2019-12-22 23:35:56 pid:4816 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] is stopping ...
+2019-12-22 23:35:56 pid:4806 Workerman[start.php] stopping ...
+2019-12-22 23:35:56 pid:4806 Workerman[start.php] has been stopped
+2019-12-22 23:35:56 pid:4816 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] stop success
+2019-12-22 23:36:21 pid:4836 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] restart 
+2019-12-22 23:36:21 pid:4836 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] is stopping ...
+2019-12-22 23:36:21 pid:4818 Workerman[start.php] stopping ...
+2019-12-22 23:36:21 pid:4818 Workerman[start.php] has been stopped
+2019-12-22 23:36:21 pid:4836 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] stop success
+2019-12-23 00:10:11 pid:4955 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] restart 
+2019-12-23 00:10:11 pid:4955 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] is stopping ...
+2019-12-23 00:10:11 pid:4838 Workerman[start.php] stopping ...
+2019-12-23 00:10:11 pid:4838 Workerman[start.php] has been stopped
+2019-12-23 00:10:11 pid:4955 Workerman[/www/web/qianshengyou/public_html/workerman-jsonrpc/start.php] stop success

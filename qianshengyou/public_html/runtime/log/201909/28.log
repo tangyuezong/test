@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[ 2019-09-28T08:36:30+08:00 ] 47.92.38.53 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1567872000 AND `createtime` < 1569686400 ) [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1567872000 AND `createtime` < 1569686400 ) [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2019-09-28T14:14:20+08:00 ] 117.132.198.98 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F416191A3AD2"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-28T15:06:53+08:00 ] 218.204.253.113 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FA3EDC2DC7DE"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-28T16:22:17+08:00 ] 218.204.253.177 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-28T17:55:29+08:00 ] 117.132.197.254 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-28T18:01:06+08:00 ] 117.132.197.254 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-28T18:01:39+08:00 ] 117.132.197.254 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FBEF5683DF46"}
+[ info ] queryauth response: 
+[ info ] 1

@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2019-12-12T03:30:00+08:00 ] 47.104.254.180 GET /api/Reporter/fenrunreport
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  ( `endtime` >= 1575993600 AND `endtime` < 1576080000 ) ORDER BY `netpoint_id` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_netpoint` [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_fenrun` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] INSERT INTO `fa_fenrun` (`group_id` , `amount` , `fenrundate` , `updatetime` , `createtime` , `status`) VALUES (2 , 0.02 , 20191211 , 1576092600 , 1576092600 , 0) [ RunTime:0.000258s ]
+[ sql ] [ SQL ] INSERT INTO `fa_fenrun` (`group_id` , `amount` , `fenrundate` , `updatetime` , `createtime` , `status`) VALUES (3 , 0.01 , 20191211 , 1576092600 , 1576092600 , 0) [ RunTime:0.000120s ]
+[ sql ] [ SQL ] INSERT INTO `fa_fenrun` (`group_id` , `amount` , `fenrundate` , `updatetime` , `createtime` , `status`) VALUES (6 , 0.01 , 20191211 , 1576092600 , 1576092600 , 0) [ RunTime:0.000137s ]
+[ log ] log begin - 分润报表生成成功 
+
+[ log ] 2019-12-11 00:00:00
+[ log ] {"2":"0.02","3":"0.01","5":"0.00","6":"0.01","17":0,"18":0,"20":0}
+[ log ] 2019-12-12 00:00:00
+[ log ] log end - 分润报表生成成功 
+

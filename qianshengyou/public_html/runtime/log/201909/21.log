@@ -1,0 +1,238 @@
+---------------------------------------------------------------
+[ 2019-09-21T08:12:34+08:00 ] 223.104.254.251 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T08:12:45+08:00 ] 223.104.254.251 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"E8413CE9A071"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T10:04:48+08:00 ] 117.132.192.61 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FF3F13AA896D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T10:04:52+08:00 ] 117.132.192.61 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FF3F13AA896D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T10:05:09+08:00 ] 218.204.253.124 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C585EAD1E015"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T11:07:01+08:00 ] 218.204.253.3 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"F00C18FC6116"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T11:17:05+08:00 ] 117.132.192.16 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D604171BB16F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T11:21:50+08:00 ] 117.132.192.16 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"D604171BB16F"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T11:40:43+08:00 ] 218.204.252.224 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C585EAD1E015"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T13:15:48+08:00 ] 117.132.193.110 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FF3F13AA896D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T15:59:28+08:00 ] 223.104.159.140 POST /admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1569052768,`token`='d40b33f3-83c5-44b8-ae27-061239d93732',`updatetime`=1569052768  WHERE  `id` = 2 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"b06fd8618fd2fc7f47410cd7f714fea8\",\"username\":\"admin\"}' , '/admin/index/login.html' , 2 , 'admin' , 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36(KHTML, like Gecko) Chrome/40.0.2214.89 Safari/537.36' , '223.104.159.140' , 1569052768) [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:29+08:00 ] 223.104.159.140 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001189s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:29+08:00 ] 223.104.159.140 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  ( `createtime` >= 1567267200 AND `createtime` < 1569081600 ) [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1567267200 AND `createtime` < 1569081600 ) [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/usercount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/orderinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT (total-refund) as amount FROM `fa_bedorder` WHERE  `status` >= -1 [ RunTime:0.001240s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/todaylogin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_oauth` WHERE  ( `createtime` >= 1568995200 AND `createtime` < 1569081600 ) LIMIT 1 [ RunTime:0.000888s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/todayorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND ( `createtime` >= 1568995200 AND `createtime` < 1569081600 ) LIMIT 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/devcount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` LIMIT 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/todayregister
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1568995200 AND `createtime` < 1569081600 ) LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/unsettleorder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_bedorder` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_bedorder` WHERE  `status` >= -1  AND `step` < 9000 LIMIT 1 [ RunTime:0.000834s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:30+08:00 ] 223.104.159.140 GET /admin/dashboard/sevendnudau
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` WHERE  ( `createtime` >= 1568390400 AND `createtime` < 1569081600 ) LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_oauth` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `fa_oauth` WHERE  ( `createtime` >= 1568390400 AND `createtime` < 1569081600 ) GROUP BY `id` ) `_group_count_` LIMIT 1 [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_users` LIMIT 1 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:39+08:00 ] 223.104.159.140 GET /admin/device/device?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'device/device' LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:40+08:00 ] 223.104.159.140 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569052778496
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18) [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.002045s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:44+08:00 ] 223.104.159.140 GET /admin/device/device/index?sort=id&order=desc&offset=30&limit=10&filter=%7B%7D&op=%7B%7D&_=1569052778497
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18) [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 30,10 [ RunTime:0.002084s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:46+08:00 ] 223.104.159.140 GET /admin/device/device/index?sort=id&order=desc&offset=40&limit=10&filter=%7B%7D&op=%7B%7D&_=1569052778498
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18) [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 40,10 [ RunTime:0.002102s ]
+---------------------------------------------------------------
+[ 2019-09-21T15:59:49+08:00 ] 223.104.159.140 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1569052778499
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18) [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2) )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.002052s ]
+---------------------------------------------------------------
+[ 2019-09-21T16:00:02+08:00 ] 223.104.159.140 GET /admin/device/device/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22dev_id%22%3A%2221530365%22%7D&op=%7B%22dev_id%22%3A%22%3D%22%7D&_=1569052778500
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;dbname=share;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='2' and ag.status='normal' ) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `id` IN (1,2,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,40,41,42,43,44,45,46,47,48,49,50,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,183,184,189,190,191,192,193,194,197,198,199,200,201,202,203,204,205,206,207,208,209,211,5,131,182,181,188) [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (3,14,17,18) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_device` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_netpoint` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_entity` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_price` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_devtype` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2)  AND `device`.`dev_id` = '21530365' )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `device`.`id`,`device`.`dev_id`,`device`.`iscabinet`,`device`.`devtype_id`,`device`.`price_id`,`device`.`netpoint_id`,`device`.`department`,`device`.`room`,`device`.`bed`,`device`.`entity_id`,`device`.`admin_id`,`device`.`mac`,`device`.`blekey`,`device`.`blepwd`,`device`.`mac2`,`device`.`blekey2`,`device`.`blepwd2`,`device`.`createtime`,`device`.`updatetime`,`device`.`status`,netpoint.id AS netpoint__id,netpoint.admin_id AS netpoint__admin_id,netpoint.name AS netpoint__name,netpoint.shortname AS netpoint__shortname,netpoint.netaddr AS netpoint__netaddr,netpoint.netlng AS netpoint__netlng,netpoint.netlat AS netpoint__netlat,netpoint.deposit AS netpoint__deposit,netpoint.level1 AS netpoint__level1,netpoint.level2 AS netpoint__level2,netpoint.level3 AS netpoint__level3,netpoint.level4 AS netpoint__level4,netpoint.percent1 AS netpoint__percent1,netpoint.percent2 AS netpoint__percent2,netpoint.percent3 AS netpoint__percent3,netpoint.percent4 AS netpoint__percent4,netpoint.mt_admin_id AS netpoint__mt_admin_id,netpoint.mall_admin_id AS netpoint__mall_admin_id,netpoint.status AS netpoint__status,entity.id AS entity__id,entity.name AS entity__name,entity.entity_image AS entity__entity_image,entity.createtime AS entity__createtime,entity.updatetime AS entity__updatetime,entity.status AS entity__status,price.id AS price__id,price.name AS price__name,price.lightstart AS price__lightstart,price.lightend AS price__lightend,price.nightstart AS price__nightstart,price.nightend AS price__nightend,price.hourdeposit AS price__hourdeposit,price.hourprice AS price__hourprice,price.timesdeposit AS price__timesdeposit,price.lighttimesprice AS price__lighttimesprice,price.nighttimesprice AS price__nighttimesprice,price.daydeposit AS price__daydeposit,price.dayprice AS price__dayprice,price.admin_id AS price__admin_id,price.createtime AS price__createtime,price.updatetime AS price__updatetime,price.status AS price__status,devtype.id AS devtype__id,devtype.type AS devtype__type,devtype.name AS devtype__name,devtype.status AS devtype__status,devtype.createtime AS devtype__createtime,devtype.updatetime AS devtype__updatetime FROM `fa_device` `device` INNER JOIN `fa_netpoint` `netpoint` ON `device`.`netpoint_id`=`netpoint`.`id` INNER JOIN `fa_entity` `entity` ON `device`.`entity_id`=`entity`.`id` INNER JOIN `fa_price` `price` ON `device`.`price_id`=`price`.`id` LEFT JOIN `fa_devtype` `devtype` ON `device`.`devtype_id`=`devtype`.`id` WHERE  (  `device`.`admin_id` IN (7,8,2)  AND `device`.`dev_id` = '21530365' )  AND `device`.`status` = 1 ORDER BY `device`.`id` DESC LIMIT 0,10 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2019-09-21T16:17:38+08:00 ] 223.104.255.206 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"C585EAD1E015"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T16:18:38+08:00 ] 218.204.252.52 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"FF3F13AA896D"}
+[ info ] queryauth response: 
+[ info ] 1
+---------------------------------------------------------------
+[ 2019-09-21T18:30:29+08:00 ] 117.132.197.36 POST /api/Bedorder/queryauth
+[ info ] queryauth request: 
+[ info ] {"mac":"CFF68135017E"}
+[ info ] queryauth response: 
+[ info ] 1

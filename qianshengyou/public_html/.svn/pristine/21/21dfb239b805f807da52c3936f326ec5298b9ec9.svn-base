@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'Order_no'  =>  '订单号',
+    'Users_id'  =>  '用户ID',
+    'Phone'  =>  '用户手机',
+    'Dev_id'  =>  '设备ID',
+    'Admin_id'  =>  '管理员ID',
+    'Entity_id'  =>  '设备实体ID',
+    'Netpoint_id'  =>  '网点ID',
+    'Step'  =>  '订单步骤',
+    'Status'  =>  '订单状态',
+    'Rtn_admin_id'  =>  '还柜操作管理员',
+    'Createtime'  =>  '创建时间',
+    'Endtime'  =>  '订单结束时间',
+    'Users.phone'  =>  '用户手机',
+    'Users.nickname'  =>  '昵称',
+    'Netpoint.name'  =>  '网点名称',
+    'Netpoint.shortname'  =>  '网点简称',
+    'Entity.name'  =>  '实体名称',
+    'Device.mac'  =>  '设备mac',
+    'Device.department'  =>  '科室',
+    'Device.room'  =>  '病房',
+    'Device.bed'  =>  '病床',
+    'Submitted'  =>  '已预定',
+    'Finished'  =>  '已完成',
+];

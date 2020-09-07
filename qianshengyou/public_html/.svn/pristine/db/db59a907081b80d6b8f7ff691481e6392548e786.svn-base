@@ -1,0 +1,76 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Order_no')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-order_no" data-rule="required" class="form-control form-control" name="row[order_no]" type="text" value="{$row.order_no}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" class="form-control form-control" type="text" value="{$row.phone}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Goodsname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-goodsname" class="form-control form-control" type="text" value="{$row.goodsname}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Netpoint')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-netpoint" class="form-control form-control" type="text" value="{$row.netpoint}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Department')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-department" class="form-control form-control" type="text" value="{$row.department}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Room')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-room" class="form-control form-control" type="text" value="{$row.room}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" data-rule="required" class="form-control form-control" name="row[price]" type="number" value="{$row.price}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-num" data-rule="required" class="form-control form-control" name="row[num]" type="number" value="{$row.num}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Total')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-total" data-rule="required" class="form-control form-control" name="row[total]" type="number" value="{$row.total}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Refund')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-refund" class="form-control form-control" name="row[refund]" type="number" value="{$row.refund}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Amount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-amount" data-rule="required" class="form-control form-control" name="row[amount]" type="number" placeholder="退款金额，不可超过支付金额">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

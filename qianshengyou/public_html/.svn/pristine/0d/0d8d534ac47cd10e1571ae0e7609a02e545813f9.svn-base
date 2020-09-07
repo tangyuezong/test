@@ -1,0 +1,56 @@
+<form id="set-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Groupserial')}:</label>
+        <div class="col-xs-12 col-sm-8">
+        	<div class="form-inline" data-toggle="cxselect" data-selects="level1,level2,level3,level4">
+            	<!-- <select class="company form-control" name="row[cid]" data-url="ajax/compcartype" data-rule="required" ></select>
+            	<select id="c-cartype" class="cartype form-control" name="row[ctid]" data-url="ajax/compcartype" data-rule="required" ></select>
+            	 -->
+            	<select class="level1 form-control" name="level1" data-url="ajax/authgroup" data-rule="required">
+            		<option value="{$row.level1}" selected></option>
+            	</select>
+                <select id="c-level2" class="level2 form-control" name="level2" data-url="ajax/authgroup" data-rule="required">
+                	<option value="{$row.level2}" selected></option>
+                </select>
+                <select id="c-level3" class="level3 form-control" name="level3" data-url="ajax/authgroup">
+                	<option value="{$row.level3}" selected></option>
+                </select>
+                <select id="c-level4" class="level4 form-control" name="level4" data-url="ajax/authgroup">
+                	<option value="{$row.level4}" selected></option>
+                </select>
+            	<span class="msg-box n-right" for="c-level2"></span>
+        	</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Percent1')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-percent1" data-rule="required" class="form-control" name="percent1" type="number" value="{$row.percent1}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Percent2')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-percent2" data-rule="required" class="form-control" name="percent2" type="number" value="{$row.percent2}">
+        </div>
+    </div>
+    <div class="form-group" id="c-div-percent3" style="display:none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Percent3')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-percent3" class="form-control" name="percent3" type="number"  value="{$row.percent3}" placeholder="可选，若存在分润层级3，需设置">
+        </div>
+    </div>
+    <div class="form-group" id="c-div-percent4" style="display:none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Percent4')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-percent4" class="form-control" name="percent4" type="number"  value="{$row.percent4}" placeholder="可选，若存在分润层级4，需设置">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
